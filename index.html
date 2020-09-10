@@ -8,14 +8,24 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/dfaca06771.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
-    <title>Bootstrap Theme</title>
+    <title>ЧП Поленок</title>
 </head>
 
 <body data-spy="scroll" data-target="#main-nav" id="home">
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
         <div class="container">
-            <a href="index.html" class="navbar-brand">ЧП Поленок</a>
+            <a href="index.html" class="navbar-brand p-0">
+                <div class="d-flex">
+                    <div class="row-hl align-self-center px-2">
+                        <h3 class="text-nowrap font-italic">ЧП Поленок</h3>
+                    </div>
+                    <div class="row-hl">
+                        <i class="fas fa-phone text-nowrap d-flex p-2"> 093 494 16 16</i>
+                        <i class="fas fa-phone text-nowrap d-flex p-2"> 093 494 16 16</i>
+                    </div>
+                </div>
+            </a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -256,25 +266,33 @@
     <!-- FOOTER -->
     <footer id="main-footer" class="bg-dark">
         <div class="container">
+
             <div class="row">
-                <div class="col text-center py-4 ">
-                    <!-- add tel in 2 lines -->
-                    <!-- <div class="d-flex"> -->
-                    <h3>ЧП Поленок</h3>
-                    <!-- <div class="p-3 align-self-start">
-                            <i class="fas fa-phone fa-2x">093 494 16 16</i>
-                        </div>
-                        <div class="p-3 align-self-end">
-                            <i class="fas fa-phone fa-2x">093 494 16 16</i>
-                        </div> -->
-                    <!-- </div> -->
-                    <p>Copyright DP &copy; <span id="year"></span></p>
-                    <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Отправить нам
-                        сообщение</button>
+
+                <div class="d-flex col ">
+                    <div class="row-hl align-self-center px-2">
+                        <h3 class="text-nowrap font-italic">ЧП Поленок</h3>
+                    </div>
+                    <div class="row-hl">
+                        <i class="fas fa-phone text-nowrap d-flex p-2"> 093 494 16 16</i>
+                        <i class="fas fa-phone text-nowrap d-flex p-2"> 093 494 16 16</i>
+                    </div>
                 </div>
+
+
+                <button id="messageBtn" class="btn btn-primary m-3" data-toggle="modal"
+                    data-target="#contactModal">Сообщение
+                </button>
+
+
             </div>
         </div>
     </footer>
+
+    <!--COPYRIGHT  -->
+    <div class="text-center">
+        <p>Copyright DP &copy; <span id="year"></span></p>
+    </div>
 
     <!-- CONTACT MODAL -->
     <div class="modal fade text-dark" id="contactModal">
