@@ -8,6 +8,12 @@ body {
     opacity: 0.8;
 }
 
+.navbar-toggler{
+    position: fixed;
+    right: 5px;
+    top: 5px;
+}
+
 #home-section {
     background: url(../img/bg_1.jpg);
     background-repeat: no-repeat;

@@ -15,20 +15,17 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
         <div class="container">
-            <a href="index.html" class="navbar-brand p-0">
-                <div class="d-flex">
-                    <div class="row-hl align-self-center px-2">
-                        <h3 class="text-nowrap font-italic">ЧП Поленок</h3>
-                    </div>
-                    <div class="row-hl">
-                        <i class="fas fa-phone text-nowrap d-flex p-2"> 093 494 16 16</i>
-                        <i class="fas fa-phone text-nowrap d-flex p-2"> 093 494 16 16</i>
-                    </div>
-                </div>
-            </a>
+            <!-- LOGO -->
+            <div class="row">
+                <h5 class="text-nowrap font-italic mx-1">ЧП Поленок</h5>
+                <h5 class="fas fa-phone text-nowrap p-1 "> 067 939 76 49</h5>
+                <h5 class="d-md-block d-none fas fa-phone text-nowrap p-1"> 093 494 16 16</h5>
+            </div>
+
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -53,7 +50,7 @@
         <div class="dark-overlay">
             <div class="home-inner container">
                 <div class="row">
-                    <div class="col-lg-8 d-none d-lg-block">
+                    <div class="col-lg-8 d-lg-block">
                         <h1 class="display-4">Закажи <strong>
                                 сегодня
                             </strong> и получи <strong>скидку %</strong>
@@ -81,7 +78,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4">
+                    <!-- <div class="col-lg-4">
                         <div class="card bg-primary text-center card-form my-2">
                             <div class="card-body">
                                 <h3>Подпишись сегодня</h3>
@@ -111,7 +108,7 @@
                                 <input type="submit" value="Submit" class="btn btn-outline-light btn-block ">
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -266,7 +263,11 @@
     <!-- FOOTER -->
     <footer id="main-footer" class="bg-dark">
         <div class="container">
-
+            <!-- <div class="row">
+                <h5 class="text-nowrap font-italic mx-1">ЧП Поленок</h5>
+                <h5 class="fas fa-phone text-nowrap p-1 "> 067 939 76 49</h5>
+                <h5 class="d-md-block d-none fas fa-phone text-nowrap p-1"> 093 494 16 16</h5>
+            </div> -->
             <div class="row">
 
                 <div class="d-flex col ">
@@ -280,12 +281,12 @@
                 </div>
 
 
-                <button id="messageBtn" class="btn btn-primary m-3" data-toggle="modal"
-                    data-target="#contactModal">Сообщение
-                </button>
+            <button id="messageBtn" class="btn btn-primary m-3" data-toggle="modal"
+                data-target="#contactModal">Сообщение
+            </button>
 
 
-            </div>
+        </div>
         </div>
     </footer>
 
